@@ -1,0 +1,31 @@
+h1 {
+    color: green;
+    background-color: rgb(105, 6, 175);
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.my-paragraph{
+    color: rgb(10, 10, 10) ;
+    font-weight: bold;
+    font-style: oblique 35deg;
+    border: 5px solid black;
+    padding: 20px;
+}
+p{
+    background-color: lightcoral;
+}
+
+.galerija{
+    background-color: cadetblue;
+    padding: 50px;
+    width: 50%;
+}
+div.galerija img{
+     border: 5px solid gold;
+     padding: 15px;
+     margin-left: 20;
+     background-color: honeydew;
+     box-shadow: rgb(26, 13, 141) 5px 5px 10px;
+}
