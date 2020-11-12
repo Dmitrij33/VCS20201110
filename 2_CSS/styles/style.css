@@ -1,31 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML paskaita</title>
+</head>
+
+<body>
+    <div>
+        <p>Koks nors tekstas</p>
+        <h1>Antraštė</h1>
+    </div>
+
+    <img src="images/photo.jpg" alt="Šuns nuotrauka">
+    <img src="https://images.unsplash.com/photo-1604928905840-36362b12e922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="stotis">
+
+    <h2>Subantraštė</h2>
+
+    <a href="https://www.google.com">Google</a>
+    <a target="_blank" href="https://www.delfi.lt">Delfi</a>
+
+    <ol reversed="reversed" start="10" type="A">
+        <li>Pirmas punktas</li>
+        <li>Antras punktas</li>
+        <li>Trečias punktas</li>
+    </ol>
+
+    <form method="GET" action="https://google.com/search">
+        <input type="text" name="query">
+        <button>Ieškoti</button>
+    </form>
+
+</body>
+
+</html>
+32 2_CSS/index.html
+@@ -0,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS paskaita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+
+    <h1>CSS paskaita</h1>
+
+    <a href="">Nuorodos tekstas</a>
+    <a href="">Nuorodos tekstas</a>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus adipisci nesciunt dolorum laborum accusantium magni.</p>
+
+    <p class="mano-paragrafas">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus adipisci nesciunt dolorum laborum accusantium magni.</p>
+
+    <img src="http://picsum.photos/150/150" alt="">
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus adipisci nesciunt dolorum laborum accusantium magni.</p>
+
+    <div class="galerija">
+        <img src="http://picsum.photos/150/150" alt="">
+        <img src="http://picsum.photos/150/150" alt="">
+        <img src="http://picsum.photos/150/150" alt="">
+    </div>
+
+</body>
+</html>
+41 2_CSS/styles/style.css
+@@ -0,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
-    color: green;
-    background-color: rgb(105, 6, 175);
+    color: orange;
+    background-color: purple;
     font-size: 40px;
-    font-family: sans-serif;
+    font-family: 'Goldman', cursive;
     text-align: center;
 }
 
-.my-paragraph{
-    color: rgb(10, 10, 10) ;
+.mano-paragrafas {
+    color: #303096;
     font-weight: bold;
-    font-style: oblique 35deg;
-    border: 5px solid black;
+    font-style: oblique 15deg;
+    border: 3px solid black;
     padding: 20px;
 }
-p{
-    background-color: lightcoral;
+
+p {
+    background-color: rgb(226, 226, 226);
 }
 
-.galerija{
-    background-color: cadetblue;
+a {
+    background-color: yellow;
+}
+
+.galerija {
+    background-color: rgb(224, 224, 235);
     padding: 50px;
-    width: 50%;
+    width: 100%;
 }
-div.galerija img{
-     border: 5px solid gold;
-     padding: 15px;
-     margin-left: 20;
-     background-color: honeydew;
-     box-shadow: rgb(26, 13, 141) 5px 5px 10px;
-}
+
+div.galerija img {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
