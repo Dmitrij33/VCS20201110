@@ -1,35 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Margin auto</title>
+@@ -1,41 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: orange;
+    background-color: purple;
+    font-size: 40px;
+    font-family: 'Goldman', cursive;
+    text-align: center;
+}
+.mano-paragrafas {
+    color: #303096;
+    font-weight: bold;
+    font-style: oblique 15deg;
+    border: 3px solid black;
+    padding: 20px;
+}
+p {
+    background-color: rgb(226, 226, 226);
+}
+a {
+    background-color: yellow;
+}
+.galerija {
+    background-color: rgb(224, 224, 235);
+    padding: 50px;
+    width: 100%;
+}
+div.galerija img {
+    /* border: 5px solid grey; */
+    padding: 15px;
+    margin-left: 15px;
+    background-color: white;
+    box-shadow: grey 5px 5px 10px;
+}
 
-    <style>
-        .konteineris {
-            width: 75%;
-            background-color: rgb(197, 214, 214);
-            margin-left: auto;
-            margin-right: auto;
-        }
-    </style>
-</head>
-<body>
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    <div class="konteineris">
-        <h1>Antraštė</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
+.box {
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    /* background-color: cadetblue; */
+}
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
+.box img {
+    border-radius: 50%;
+    width: 70%;
+}
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
+.box p {
+    background-color: transparent;
+}
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
-    </div>
+header img {
+    width: 100%;
+}
 
-</body>
-</html> 
+header h2 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.version-two-header {
+    background-color: wheat;
+    background-image: url('https://picsum.photos/1920/1080');
+    background-size: cover;
+    background-position: center center;
+    margin-top: 202px;
+}
+
+.version-two-header h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
