@@ -1,116 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML paskaita</title>
-</head>
+    <title>Margin auto</title>
 
+    <style>
+        .konteineris {
+            width: 75%;
+            background-color: rgb(197, 214, 214);
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
 <body>
-    <div>
-        <p>Koks nors tekstas</p>
+
+    <div class="konteineris">
         <h1>Antraštė</h1>
-    </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
 
-    <img src="images/photo.jpg" alt="Šuns nuotrauka">
-    <img src="https://images.unsplash.com/photo-1604928905840-36362b12e922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="stotis">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
 
-    <h2>Subantraštė</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
 
-    <a href="https://www.google.com">Google</a>
-    <a target="_blank" href="https://www.delfi.lt">Delfi</a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
 
-    <ol reversed="reversed" start="10" type="A">
-        <li>Pirmas punktas</li>
-        <li>Antras punktas</li>
-        <li>Trečias punktas</li>
-    </ol>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
 
-    <form method="GET" action="https://google.com/search">
-        <input type="text" name="query">
-        <button>Ieškoti</button>
-    </form>
-
-</body>
-
-</html>
-32 2_CSS/index.html
-@@ -0,0 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS paskaita</title>
-    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-</head>
-<body>
-
-    <h1>CSS paskaita</h1>
-
-    <a href="">Nuorodos tekstas</a>
-    <a href="">Nuorodos tekstas</a>
-
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus adipisci nesciunt dolorum laborum accusantium magni.</p>
-
-    <p class="mano-paragrafas">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus adipisci nesciunt dolorum laborum accusantium magni.</p>
-
-    <img src="http://picsum.photos/150/150" alt="">
-
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus adipisci nesciunt dolorum laborum accusantium magni.</p>
-
-    <div class="galerija">
-        <img src="http://picsum.photos/150/150" alt="">
-        <img src="http://picsum.photos/150/150" alt="">
-        <img src="http://picsum.photos/150/150" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium hic quam voluptatum, non perspiciatis ipsam. Inventore ad sint accusamus? Temporibus nemo deserunt repellendus illum quidem, voluptate ut nesciunt nobis. Ratione!</p>
     </div>
 
 </body>
-</html>
-41 2_CSS/styles/style.css
-@@ -0,0 +1,41 @@
-* {
-    box-sizing: border-box;
-}
-
-h1 {
-    color: orange;
-    background-color: purple;
-    font-size: 40px;
-    font-family: 'Goldman', cursive;
-    text-align: center;
-}
-
-.mano-paragrafas {
-    color: #303096;
-    font-weight: bold;
-    font-style: oblique 15deg;
-    border: 3px solid black;
-    padding: 20px;
-}
-
-p {
-    background-color: rgb(226, 226, 226);
-}
-
-a {
-    background-color: yellow;
-}
-
-.galerija {
-    background-color: rgb(224, 224, 235);
-    padding: 50px;
-    width: 100%;
-}
-
-div.galerija img {
-    vertical-align: middle;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-} 
+</html> 
